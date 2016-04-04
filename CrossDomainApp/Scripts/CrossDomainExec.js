@@ -95,8 +95,7 @@ function successHandler(data, req) {
             "</p><hr>";
     }
 
-    document.getElementById("renderAnnouncements").innerHTML =
-        announcementsHTML;
+    document.getElementById("renderAnnouncements").innerHTML = announcementsHTML;
 }
 
 // Function to handle the error event.
